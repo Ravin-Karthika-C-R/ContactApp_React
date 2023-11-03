@@ -29,15 +29,17 @@ function SingleView() {
     
 </ListGroup>
 {contact ? (
-        <div className='mt-3 me-5'>
+        <div className='mt-3 me-5 mb-3'>
             <Row>
-            <Col className="mt-3 ms-3">
+            <Col className="ms-3">
+            <img style={{height:'400px',width:'100%'}} src={contact.profile} alt={contact.name} ></img>
+
             {/* <p>{singleData.name}</p> */}
-            <img style={{height:'600px',width:'100%'}} src={contact.profile} alt={contact.name} ></img>
 
             {/* <img src={singleData.photograph} /> */}
             </Col>
-            <Col className='ms-3'>
+            <Col className=''>
+
                 <h1 className='text-danger'>{contact.name}</h1>
                 <ListGroup className='fs-5 pt-5 mt-3 w-100'>
                     <ListGroup.Item className='mt-3'> <span style={{color:'#F94C10'}}> Email </span>  : {contact.email}</ListGroup.Item>
