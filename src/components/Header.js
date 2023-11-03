@@ -14,7 +14,7 @@ function Header() {
           className="d-inline-block align-top"
         />{' '}
         </a>
-<h5 className="me-5">Conatcts</h5>
+<h5 className="me-5">Contacts</h5>
     
   </div>
 </nav>

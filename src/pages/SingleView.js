@@ -29,9 +29,9 @@ function SingleView() {
     
 </ListGroup>
 {contact ? (
-        <div className=' ms-2 me-3'>
-            <Row className='p-2'>
-            <Col>
+        <div className='me-5'>
+            <Row>
+            <Col className="p-5">
             {/* <p>{singleData.name}</p> */}
             <img style={{height:'600px',width:'100%'}} src={contact.profile} alt={contact.name} ></img>
 
