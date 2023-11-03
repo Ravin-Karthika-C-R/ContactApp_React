@@ -41,7 +41,7 @@ function SingleView() {
             <Col className=''>
 
                 <h1 className='text-danger'>{contact.name}</h1>
-                <ListGroup className='fs-5 pt-3 mt-2 w-100'>
+                <ListGroup className='fs-5 pt-3 mt-1 w-100'>
                     <ListGroup.Item className='mt-3'> <span style={{color:'#F94C10'}}> Email </span>  : {contact.email}</ListGroup.Item>
                     <ListGroup.Item className='mt-3'><span style={{color:'#F94C10'}}> Mobile </span> : {contact.mobile}</ListGroup.Item>
                     <ListGroup.Item className='mt-3'><span style={{color:'#F94C10'}}> Location </span> : {contact.location}</ListGroup.Item>
