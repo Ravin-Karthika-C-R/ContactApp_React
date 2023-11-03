@@ -37,7 +37,7 @@ function SingleView() {
 
             {/* <img src={singleData.photograph} /> */}
             </Col>
-            <Col className='p-4 ms-3'>
+            <Col className='ms-3'>
                 <h1 className='text-danger'>{contact.name}</h1>
                 <ListGroup className='fs-5 pt-5 mt-3 w-100'>
                     <ListGroup.Item className='mt-3'> <span style={{color:'#F94C10'}}> Email </span>  : {contact.email}</ListGroup.Item>
