@@ -31,7 +31,7 @@ function SingleView() {
 {contact ? (
         <div className='me-5'>
             <Row>
-            <Col className="p-5">
+            <Col className="p-2 ms-3">
             {/* <p>{singleData.name}</p> */}
             <img style={{height:'600px',width:'100%'}} src={contact.profile} alt={contact.name} ></img>
 
